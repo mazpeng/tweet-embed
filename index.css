@@ -1,0 +1,70 @@
+html {
+  display: flex;
+  width: 923px;
+  padding: 186px 161px;
+  justify-content: center;
+  align-items: center;
+  background: #141d26;
+  margin: 0 auto;
+}
+main {
+  display: flex;
+  width: 923px;
+
+  padding: 186px 161px;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  display: flex;
+  width: 601px;
+  padding: 35px 31px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 15px;
+  flex-shrink: 0;
+  border-radius: 10px;
+  background: #243447;
+  box-shadow: 0px 15px 60px 0px rgba(52, 81, 116, 0.15);
+}
+
+.secondar-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  align-self: stretch;
+}
+
+.secondar-assets {
+  display: flex;
+  align-items: center;
+  gap: 22px;
+}
+
+.profile {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 1px;
+}
+
+h1.name-profile {
+  color: #fff;
+  font-family: Source Sans Pro;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin: 0;
+}
+
+p.text-profile {
+  color: rgba(255, 255, 255, 0.6);
+  font-family: Source Sans Pro;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin: 0;
+}
