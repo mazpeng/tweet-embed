@@ -51,7 +51,7 @@ main {
 
 h1.name-profile {
   color: #fff;
-  font-family: Source Sans Pro;
+  font-family: sans-serif;
   font-size: 18px;
   font-style: normal;
   font-weight: 700;
@@ -61,10 +61,60 @@ h1.name-profile {
 
 p.text-profile {
   color: rgba(255, 255, 255, 0.6);
-  font-family: Source Sans Pro;
+  font-family: sans-serif;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
+  margin: 0;
+}
+
+p {
+  align-self: stretch;
+  color: #fff;
+  font-family: sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px; /* 162.5% */
+}
+p span.dec {
+  color: #1da1f2;
+  font-family: sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
+}
+
+.third-container {
+  display: flex;
+  align-items: flex-start;
+  gap: 20px;
+}
+
+.footer {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+}
+
+p.footer-numb {
+  color: rgba(255, 255, 255, 0.6);
+  font-family: sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 26px; /* 162.5% */
+  margin: 0;
+}
+
+p.footer-end {
+  color: rgba(255, 255, 255, 0.6);
+  font-family: sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 26px; /* 162.5% */
   margin: 0;
 }
